@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+    background-color: black; 
+}
+
+.cart-wrap {
+	padding: 40px 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.main-heading {
+    margin-top: 5px;
+    font-size: 30px;
+    text-align: center;
+    color:white;
+    padding: 5px;
+    background-color: #154042 ;
+}
+.table-wishlist table {
+     width: 100%;
+   background-color:#d5e9dd;
+}
+.table-wishlist thead th {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 5px;
+    font-weight: bolder !important;
+}
+.table-wishlist thead tr th {
+    padding: 8px 0 18px;
+    color: #484848;
+    font-size: 15px;
+    font-weight: 400;
+}
+.table-wishlist tr td {
+    padding: 25px 0;
+    vertical-align: middle;
+}
+.table-wishlist tr td .img-product {
+    width: 72px;
+    float: left;
+    margin-left: 8px;
+    margin-right: 31px;
+    line-height: 63px;
+}
+.table-wishlist tr td .img-product img {
+	width: 100%;
+}
+.table-wishlist tr td .name-product {
+    font-size: 15px;
+    color: #484848;
+    padding-top: 8px;
+    line-height: 24px;
+    width: 50%;
+}
+.table-wishlist tr td.price {
+    font-weight: 600;
+}
+
+
+.total {
+	font-size: 24px;
+	font-weight: 600;
+	color: black;
+}
+.display-flex {
+	display: flex;
+}
+.align-center {
+	align-items: center;
+}
+.round-black-btn {
+	border-radius: 25px;
+    background: #212529;
+    color: #fff;
+    padding: 5px 20px;
+    display: inline-block;
+    border: solid 2px #212529; 
+    transition: all 0.5s ease-in-out 0s;
+    cursor: pointer;
+    font-size: 14px;
+}
+.round-black-btn:hover,
+.round-black-btn:focus {
+	background: transparent;
+	color: #212529;
+	text-decoration: none;
+}
+.in-stock-box {
+	background: #ff0000;
+	font-size: 12px;
+	text-align: center;
+	border-radius: 25px;
+	padding: 4px 15px;
+	display: inline-block;  
+        color: #fff;
+}
+.trash-icon {
+    font-size: 20px;
+    color: black !important;
+}
+
+@media (max-width: 768px) {   
+    
+.cart-wrap {
+	padding:0px;
+        margin:0px;
+	font-family: 'Open Sans', sans-serif;
+}
+.main-heading {
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    background-color: #085da5;
+}
+.table-wishlist table {
+   width: 100%;
+   background-color:white;
+   margin:0px;
+}
+.trash-icon {
+    font-size: 13px;
+    color: black !important;
+}
+.round-black-btn {
+    border-radius: 15px;
+    background: red;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    border: solid 2px transparent; 
+    transition: all 0.5s ease-in-out 0s;
+    cursor: pointer;
+    font-size: 10px;
+}
+.table-wishlist tr td {
+    font-size: 10px;
+}
+   
+}

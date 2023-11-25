@@ -1,0 +1,176 @@
+.product-content
+{
+    background: black;
+}
+#proslide 
+ {
+    margin-top: -40px;    
+ } 
+#proslide .card {
+  text-align: center; 
+ 
+}
+ #proslide .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; 
+}
+ #proslide .wrapper{
+  width:100%;
+  padding-top: 10px;
+  text-align:center;
+}
+ #proslide .card-title{
+  font-size: 30px;
+  font-family:sans-serif;
+  color:#000000;
+}
+ #proslide .carousel{
+  width:90%;
+  margin:0px auto;
+}
+ #proslide .slick-slide{
+  margin:10px;
+}
+ #proslide .slick-slide img{
+  width:100%;
+}
+ #proslide .slick-prev, .slick-next{
+  background: #black;
+  border-radius: 15px;
+  border-color: transparent;
+}
+ #proslide .card{
+  border: 2px solid #fff;
+  box-shadow: 1px 1px 15px #ccc;
+}
+ #proslide .card-body{
+  background:  #FFC0CB;
+  width: 100%;
+  vertical-align: top;
+}
+
+
+
+#proslide .slick-prev,
+#proslide .slick-next {
+  background: black;
+  border-radius: 15px;
+  border-color: transparent;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+#proslide .slick-prev {
+  left: 10px;
+}
+
+#proslide .slick-next {
+  right: 10px;
+}
+
+
+ #proslide .card {
+
+  position: relative;
+  width: 220px;
+  height: 380px;
+  background: black;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+ #proslide .card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  width: 100%;
+  height: 100%;
+  background: #d5e9dd ;
+  transform: skewY(345deg);
+  transition: 0.5s;
+}
+
+ #proslide .card:hover::before {
+  top: -70%;
+  transform: skewY(390deg);
+}
+
+ #proslide .card::after {
+  content: "ElectroKart";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: 600;
+  font-size: 4em;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+ #proslide .card .imgBox {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+
+ #proslide .card .contentBox {
+  position: relative;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+}
+
+ #proslide .card .contentBox h3 {
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+
+ #proslide .card .contentBox .price {
+  font-size: 13px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+ #proslide .card .contentBox .buy {
+  position: relative;
+  top: 100px;
+  opacity: 0;
+  padding: 5px 25px;
+  margin-top: 15px;
+  color: white;
+  text-decoration: none;
+  background: #1D63FF;
+  border-radius: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  font-size: 12px;
+}
+
+ #proslide .card:hover .contentBox .buy {
+  top: 0;
+  opacity: 1;
+}
+
+ #proslide .mouse {
+  height: 180px;
+  width: auto;
+}
+ #proslide .cfl
+{
+    float: left;
+    margin: 20px 40px;
+}

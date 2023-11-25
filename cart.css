@@ -1,0 +1,23 @@
+body
+{
+    background:black;
+}
+.card-body
+{
+    background:#2E2E2E;
+    color:white;
+     border-radius:15px;
+    
+}
+h1
+{
+    color:#d5e9dd 
+}
+table
+{
+    color:#d5e9dd ;
+}
+.fa
+{
+    color:white;
+}

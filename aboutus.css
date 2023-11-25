@@ -1,0 +1,170 @@
+html, body {
+    width: 100%;
+    overflow-x: hidden; 
+} 
+
+.modal-header {
+    background-color: #ffff99;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    margin-bottom: 5%;
+    color: #FFF;
+    background: url("../images/BlackElectronic.png") no-repeat top right fixed;
+    /* https://i.imgur.com/Cul8J8c.jpg */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.title {
+    padding: 4%;
+    width: 80%;
+    margin: 0 10% 0 10%;
+    border: 1px solid #fff;
+    font-family: 'Cardo';
+}
+h6::first-letter
+{
+    font-size: xx-large;
+  text-shadow: 1px 1px black;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer hr {
+    border-color: #f1f1f1;
+    background-color: #f1f1f1;
+}
+
+.btn-circle {
+    width: 75px;
+    height: 75px;
+    margin-top: 35%;
+    -webkit-transition: background 0.4s ease-in-out;
+    -moz-transition: background 0.4s ease-in-out;
+    -o-transition: background 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out;
+    color: #FFF;
+    border-radius: 50% !important;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.btn-circle:focus, .btn-circle:hover {
+    color: #000;
+    outline: none;
+    box-shadow: none;
+    background: rgba(255, 165, 210, 0.5);
+}
+
+.fa-angle-double-down{
+    font-size: 55px;
+}
+
+.fa-angle-double-up{
+    font-size: 30px;
+}
+
+.back-to-top {
+    display: none; 
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+
+section {
+    font-family: 'Lora';
+}
+
+#consuelo {
+    width: 100%;
+    height: auto;
+    margin-left: 15%;
+    border: 3px solid #d3d3d3;
+}
+
+#testimonial {
+    background-color: #f1f1f1;
+    padding: 4% 3% 4% 3%;
+    margin-bottom: 5%;
+}
+
+#lpvolcano {
+    width: 100%;
+}
+
+#lproses {
+    width: 100%;
+}
+
+#lpvideo {
+    width: 100%;
+    height: auto;
+}
+
+#elsalvador, #therose, #thecouple {
+    margin-bottom: 6%;
+}
+
+.film {
+    color: #989898;
+}
+
+.fa-film {
+    font-size: 200%;
+    margin-bottom: 10%;
+}
+
+footer {
+    font-size: 12px;
+    color: #989898;
+}
+
+/* Medium devices (desktops and up) */
+@media (min-width: 992px) { 
+    header {
+    padding-top: 5%;
+    }
+  
+    .btn-circle {
+     margin-top: 10%;
+    }
+  
+    .title {
+        width: 50%;
+        margin-left: 25%;
+    }   
+  
+    section {
+        line-height: 30px;
+    }
+  
+    .testimonial-right span {
+        font-size: 40px;
+    }
+    
+    .testimonial-right footer {
+        font-size: 16px;
+    }  
+  
+    #consuelo {
+        width: 50%;
+        height: auto;
+    }  
+  
+}
+h6
+{
+    text-align:center;
+    font-size: larger;
+}
